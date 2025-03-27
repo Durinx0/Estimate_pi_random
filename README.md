@@ -29,13 +29,15 @@ You will be prompted to enter a number `n`, which defines how many random points
 Example:
 
 ```text
-Wie viele Punkte möchtest du generieren? 10000
+n = 10000
 Pi ≈ 3.14124
 ```
 
 A scatter plot will show:
 - Green dots = points inside the quarter circle
 - Red dots = points outside the circle
+- ![image](https://github.com/user-attachments/assets/c079c4e3-cf18-47e7-8c46-d9fc9ee493f3)
+
 
 ---
 
