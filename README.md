@@ -1,7 +1,7 @@
 
-# 🎯 Monte Carlo Pi Estimator
+# 🎯 Monte Carlo Pi Estimator with Visualisation
 
-This Python script estimates the value of **π (pi)** using a simple and intuitive **Monte Carlo simulation**.
+This Python script estimates the value of **π (pi)** using a simple and intuitive **Monte Carlo simulation**, now enhanced with a **matplotlib visualisation**.
 
 ---
 
@@ -14,7 +14,7 @@ Using this ratio, we estimate π based on the formula:
 π ≈ 4 × (points_in_circle / total_points)
 ```
 
-This method is inspired by probability and geometry – and it's a fun way to understand randomness and approximation!
+This method is inspired by probability and geometry – and now also visualised!
 
 ---
 
@@ -29,27 +29,29 @@ You will be prompted to enter a number `n`, which defines how many random points
 Example:
 
 ```text
-n = 100000
-Pi = 3.14124
+Wie viele Punkte möchtest du generieren? 10000
+Pi ≈ 3.14124
 ```
 
-The more points you use, the more accurate the result.
+A scatter plot will show:
+- Green dots = points inside the quarter circle
+- Red dots = points outside the circle
 
 ---
 
 ## 🧰 Requirements
 
 - Python 3.x
-- No external libraries needed (uses built-in `random` module)
+- `matplotlib` (install with `pip install matplotlib`)
 
 ---
 
 ## 📁 File Overview
 
-| File             | Description                              |
-|------------------|------------------------------------------|
-| `estimate_pi.py` | Main script that performs the simulation |
-| `README.md`      | This beautiful documentation ✨           |
+| File             | Description                                       |
+|------------------|---------------------------------------------------|
+| `estimate_pi.py` | Main script that performs the simulation and plot |
+| `README.md`      | This documentation 📖                              |
 
 ---
 
@@ -57,14 +59,12 @@ The more points you use, the more accurate the result.
 
 **Sebastian Strack**  
 📅 2025  
-💬 Feel free to fork, modify, or play with it!
+💬 Feel free to fork, modify, or visualise more!
 
 ---
 
-## 📈 Optional: Want to Improve It?
+## 📈 Optional Ideas
 
-- Visualize the points using `matplotlib`
-- Track accuracy over multiple runs
-- Compare against Python’s `math.pi`
-
-Happy coding! 🎉
+- Animate the points being drawn
+- Track π convergence as number of points increases
+- Compare multiple simulations
