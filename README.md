@@ -1,5 +1,5 @@
 
-# 🎯 Monte Carlo Pi Estimator with Visualisation
+# Monte Carlo Pi Estimator with Visualisation
 
 This Python script estimates the value of **π (pi)** using a simple and intuitive **Monte Carlo simulation**, now enhanced with a **matplotlib visualisation**.
 
@@ -18,7 +18,7 @@ This method is inspired by probability and geometry – and now also visualised!
 
 ---
 
-## ▶️ How to Run
+## ▶How to Run
 
 ```bash
 python estimate_pi.py
